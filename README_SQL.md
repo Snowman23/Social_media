@@ -8,7 +8,7 @@ This project simulates a **mini social platform**, allowing users to post, inter
 
 ## 🚀 Live Demo
 
-▶️ [Try it on Oracle APEX](https://apex.oracle.com/pls/apex/r/beetlejuice/social_media/home)
+▶️ [Try it on Oracle APEX]([https://apex.oracle.com/pls/apex/r/beetlejuice/social_media/home](https://oracleapex.com/ords/r/social_media_bi/social_media/home?session=100493549221575))
 
 > *Note: You may need to log in or create a temporary session if prompted by Oracle's environment.*
 
@@ -56,3 +56,4 @@ Oracle APEX allows rapid development via:
 ## 🗓 Project Timeline
 
 Started as a side project in **2023**, this was a deep dive into Oracle APEX's capabilities and its suitability for real-world web app development — all with minimal front-end effort.
+
