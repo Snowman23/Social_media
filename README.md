@@ -5,6 +5,7 @@ This project showcases an interactive **Power BI dashboard** built on top of a s
 
 The data is accessed directly from **RESTful JSON endpoints** exposed by Oracle APEX, ensuring real-time synchronization with the database.
 
+▶️ [Try it](https://app.powerbi.com/reportEmbed?reportId=ef074f6b-98c6-42bd-a273-82f446e42fbb&autoAuth=true&ctid=6bb41fe4-40a3-4a10-b6cd-38278e78b21a)
 ---
 
 ## Data Source
