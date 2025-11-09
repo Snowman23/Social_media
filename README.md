@@ -1,58 +1,87 @@
-# Social Media Analytics Dashboard – Power BI
+# Social Media Engagement Analytics – Power BI  
 
-## Project Overview
-This project showcases an interactive **Power BI dashboard** built on top of a social media database managed with **Oracle APEX**. It provides insights into user behavior, content engagement, and community interactions by visualizing multiple interconnected tables: Users, Posts, Comments, Likes, Followers, Messages, and Notifications.
+## 📘 Project Overview  
+This project delivers an **analytical Power BI report** built on top of a **social media database** managed through **Oracle APEX**.  
+The goal is to **explore and explain engagement behavior** — uncovering what drives likes, comments, and interactions, and how posting patterns affect reach.  
 
-The data is accessed directly from **RESTful JSON endpoints** exposed by Oracle APEX, ensuring real-time synchronization with the database.
+The report connects directly to **RESTful JSON endpoints** from Oracle APEX, ensuring data is always synchronized with the live database.  
 
-▶️ [Try it](https://app.powerbi.com/reportEmbed?reportId=ef074f6b-98c6-42bd-a273-82f446e42fbb&autoAuth=true&ctid=6bb41fe4-40a3-4a10-b6cd-38278e78b21a)
----
-
-## Data Source
-- Oracle APEX RESTful Services provide live access to all tables in JSON format.
-- Tables visualized include:
-  - **Users**: Profiles, join dates, verification status
-  - **Posts**: Content, media, visibility, engagement metrics
-  - **Comments**: Comment content, likes
-  - **Likes**: Likes on posts and comments
-  - **Followers**: Relationships between users
-  - **Messages**: Sent/received messages
-  - **Notifications**: User activity notifications
+▶️ [**Open Interactive Report**](https://app.powerbi.com/reportEmbed?reportId=ef074f6b-98c6-42bd-a273-82f446e42fbb&autoAuth=true&ctid=6bb41fe4-40a3-4a10-b6cd-38278e78b21a)
 
 ---
 
-## Dashboard Design & Visualizations
-
-### User Engagement
-- **Posts per User** – Bar chart showing the number of posts each user has published.
-- **Likes per Post** – Column chart aggregating likes for each post.
-- **Comments per Post** – Column chart displaying comment count by post.
-
-### Content Distribution
-- **Post Visibility** – Pie chart showing Public, Friends Only, and Private posts distribution.
-- **Media Types** – Donut chart showing proportion of posts with images, videos, or text only.
-
-### Community & Interaction
-- **Followers Network** – Table and matrix visualizations showing follower relationships.
-- **Messages Overview** – Table summarizing messages sent and received per user.
-- **Notifications Activity** – Bar chart summarizing types of notifications (Like, Comment, Follow, Mention).
-
-### Time-Based Analysis
-- **Posts Over Time** – Line chart showing posting trends over time.
-- **User Activity Timeline** – Line or area chart showing engagement metrics like likes, comments, and posts per day/week.
+## Report Type: **Analytical**  
+**Primary Goal:** Discover insights and answer *“What drives engagement?”*  
+**Audience:** Analysts, social media managers, marketing strategists  
+**Experience Features:** High interactivity, cross-filtering, decomposition trees, key influencers, and time-based drilldowns  
 
 ---
 
-## Key Features
-- **Live Data Integration**: RESTful API ensures dashboards update automatically when the database changes.
-- **Cross-Filtering**: Interconnected visuals allow filtering across users, posts, comments, and engagement metrics.
-- **Aggregated Insights**: Measures such as total posts, likes, and comments per user provide actionable metrics.
-- **Interactive Design**: Users can explore content, followers, and notifications dynamically.
+## 💼 Business Value
+Modern social media teams face the challenge of understanding what content truly drives engagement.  
+This dashboard replicates the **reporting needs of a real social media analytics department**, helping decision-makers to:  
+
+- Identify which **content formats** (text, image, video) perform best.  
+- Analyze **when and how often** to post for maximum visibility.  
+- Discover **key engagement drivers** using Power BI’s AI features.  
+- Monitor **growth and activity** across followers, messages, and interactions.  
+- Support **data-driven marketing strategy** by connecting performance insights with content planning.  
+
+In a real-world context, this report could guide **marketing, content creation, and platform design decisions** — turning raw engagement data into actionable strategy.  
 
 ---
 
-## Skills Demonstrated
-- Advanced **Power BI dashboard design** and data visualization.
-- **RESTful API integration** with Oracle APEX.
-- Data modeling of relational social media tables.
-- Creation of **interactive and dynamic dashboards** for real-time insights.
+## Data Source  
+- Data originates from **Oracle APEX RESTful Services**, exposing social media tables in JSON format.  
+- **Key Tables Analyzed:**  
+  - **Users** – demographics, verification status, and activity  
+  - **Posts** – content type, visibility, and engagement metrics  
+  - **Comments** – feedback and sentiment  
+  - **Likes** – user engagement across posts and comments  
+  - **Followers** – user relationship graph  
+  - **Messages** – user-to-user communication  
+  - **Notifications** – engagement and activity triggers  
+
+---
+
+## Analytical Visualizations  
+
+### 🔹 Engagement Metrics  
+- **KPI Cards** – Key metrics (Total Engagement, Posts, Follower Growth) with green/red trend indicators showing month-over-month performance.  
+- **Decomposition Tree** – Explains which factors (Post Type, Visibility, Gender) most influence engagement.  
+- **Key Influencers Visual** – Identifies attributes driving higher likes or comment activity.  
+
+### 🔹 Content Insights  
+- **Post Type Distribution** – Donut chart comparing text, image, and video post proportions.  
+- **Visibility Breakdown** – Pie chart showing Public vs. Friends Only vs. Private posts.  
+
+### 🔹 Time & Behavior Analysis  
+- **Engagement Over Time** – Line chart showing how total interactions evolve monthly.  
+- **Heatmap: Day × Hour** – Matrix visual showing engagement by day of week and hour to optimize posting schedules.  
+- **Activity Timeline** – Line chart showing how likes, comments, and posts fluctuate over time.  
+
+### 🔹 Community & Communication  
+- **Followers Network** – Relationship matrix showing follower–followed connections.  
+- **Messages Overview** – Table summarizing user conversations and media exchanges.  
+- **Notifications Breakdown** – Bar chart of engagement triggers (Likes, Comments, Mentions, Follows).  
+
+---
+
+## Key Features  
+- **Live Oracle APEX integration** via REST APIs for real-time updates.  
+- **Advanced DAX measures** for trend analysis and engagement scoring.  
+- **Cross-filtering and drillthrough navigation** between users, posts, and metrics.  
+- **AI visuals** (Decomposition Tree, Key Influencers) for insight discovery.  
+- **Responsive layout** designed for both desktop and Power BI Service viewing.  
+
+---
+
+## Skills Demonstrated  
+- Power BI **data modeling and visualization design**  
+- **RESTful API integration** with Oracle APEX  
+- **Analytical storytelling** using AI visuals and trend indicators  
+- **Performance optimization** with calculated measures and filters  
+- **Interactive dashboard design** for real-world decision support  
+
+---
+
